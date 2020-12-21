@@ -39,6 +39,8 @@ Commitimine - muudatuste "salvestamine" koos sõnumiga, mis muudatusi tehti. Lü
 git commit -m 'This is commit message'
 
 git commit -am 'This is commit message'
+
+git commit -am 'This is commit message' && git push
 ```
 
 
