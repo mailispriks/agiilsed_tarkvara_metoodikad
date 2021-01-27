@@ -68,4 +68,4 @@ git pull origin master
 
 või VSCode Source conrol vaates valides kolm punkti -> Pull, Push -> Pull from... -> siis valite origin -> origin/main
 
-![alt text](assets/source_control_1.png)
+![VSCode source control](assets/source_control_1.png)
