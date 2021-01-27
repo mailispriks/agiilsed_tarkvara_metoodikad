@@ -86,6 +86,8 @@ Nüüd on variat kasutada VSCode source controli all tekkinud commit messaget ja
 ![Commit message](assets/commit_message.png)
 
 Või commitida käsitsi (ei soovita, aga kui vaja ise message kirjutada).
+
+
 Või jätkata mergemist terminalis käsuga
 
 ```
