@@ -76,3 +76,30 @@ Meie peame valima, kas võtame:
 - sissetulevad muudatused (Accept current change)
 - enda muudatused (Accept incomig change)
 - mõlemad (Accept both changes)
+
+![Merge conflict](assets/merge_conflict.png)
+
+Fail tuleb üle salvestada ja teha uuesti `git add .` või source controli alt lisada.
+
+Nüüd on variat kasutada VSCode source controli all tekkinud commit messaget ja vajutada linnukest (ja teha ka git push!)
+
+![Commit message](assets/commit_message.png)
+
+Või commitida käsitsi (ei soovita, aga kui vaja ise message kirjutada).
+Või jätkata mergemist terminalis käsuga
+
+```
+git merge --continue
+```
+
+Siis ta näitab ära kõik message:
+
+![Terminal merge](assets/terminal_merge.png)
+
+Terminal ise läheb automaatselt vim editori seal tuleb teha write and quit:
+
+```
+:wq!
+```
+
+ja vajutada enter. Siis teha git push ja merge conflict ongi lahendatud!
