@@ -69,3 +69,10 @@ git pull origin master
 või VSCode Source conrol vaates valides kolm punkti -> Pull, Push -> Pull from... -> siis valite origin -> origin/main
 
 ![VSCode source control](assets/source_control_1.png)
+
+
+## Kui nüüd fail VSCodes avada, näeme, et 2 eri koodi ei "sobi" kokku.
+Meie peame valima, kas võtame:
+- sissetulevad muudatused (Accept current change)
+- enda muudatused (Accept incomig change)
+- mõlemad (Accept both changes)
